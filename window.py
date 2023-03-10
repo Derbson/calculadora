@@ -1,5 +1,5 @@
 
-from PySide6.QtWidgets import QMainWindow, QVBoxLayout, QWidget, QLabel
+from PySide6.QtWidgets import QMainWindow, QVBoxLayout, QWidget
 
 
 class MyWindow(QMainWindow):
@@ -24,6 +24,5 @@ class MyWindow(QMainWindow):
     # adicinar Widgets ao v_layout
     def addWidgetToVLayout(self, widget: QWidget):
         self.v_layout.addWidget(widget)
-        
         
         
